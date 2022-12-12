@@ -44,7 +44,7 @@ const App = () => (
       Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
       in Product Development.
     </p>
-    <ul>
+    <ul className="list-container">
       {cardsList.map(eachCard => (
         <CardItem eachCard={eachCard} key={eachCard.id} />
       ))}

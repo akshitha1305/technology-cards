@@ -16,6 +16,9 @@ body {
   font-family: 'Roboto';
   height: 100vh;
 }
+.list-container {
+  list-style-type: none;
+}
 .heading {
   color: #171f46;
   font-size: 30px;
